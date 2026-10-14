@@ -1,0 +1,356 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mechanical engineering, interdisciplinary project management, and applied AI.">
+  <title>Your Name | Engineering & Innovation</title>
+  <style>
+    :root {
+      --navy: #14243a;
+      --blue: #547da8;
+      --text: #263447;
+      --muted: #66758a;
+      --light: #f4f7fb;
+      --white: #ffffff;
+      --line: #e1e7ef;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      line-height: 1.7;
+      background: var(--white);
+    }
+
+    a { color: inherit; }
+
+    .container {
+      width: min(1080px, 88%);
+      margin: 0 auto;
+    }
+
+    header {
+      background: var(--navy);
+      color: white;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 24px 0;
+      gap: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .brand {
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 24px;
+    }
+
+    .hero {
+      padding: 90px 0 100px;
+      max-width: 780px;
+    }
+
+    .eyebrow {
+      color: var(--blue);
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    header .eyebrow { color: #a9c6e6; }
+
+    h1 {
+      font-size: clamp(38px, 6vw, 66px);
+      line-height: 1.12;
+      letter-spacing: -2px;
+      margin: 20px 0;
+    }
+
+    h2 {
+      color: var(--navy);
+      font-size: clamp(27px, 4vw, 38px);
+      line-height: 1.25;
+      margin: 10px 0 20px;
+    }
+
+    h3 { color: var(--navy); }
+
+    .hero p {
+      color: #d1dbea;
+      font-size: 18px;
+      max-width: 670px;
+    }
+
+    .button {
+      display: inline-block;
+      background: white;
+      color: var(--navy);
+      padding: 12px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 18px;
+    }
+
+    section { padding: 76px 0; }
+
+    .intro {
+      max-width: 780px;
+      font-size: 18px;
+    }
+
+    .light { background: var(--light); }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 22px;
+      margin-top: 32px;
+    }
+
+    .card {
+      padding: 26px;
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+    }
+
+    .card p { color: var(--muted); }
+
+    .number {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 13px;
+      letter-spacing: 1px;
+    }
+
+    .tag {
+      display: inline-block;
+      color: var(--navy);
+      background: #eaf0f7;
+      border-radius: 4px;
+      padding: 4px 9px;
+      margin: 4px 4px 0 0;
+      font-size: 12px;
+    }
+
+    .contact {
+      background: var(--navy);
+      color: white;
+    }
+
+    .contact h2 { color: white; }
+    .contact p { color: #d1dbea; }
+
+    .contact a {
+      color: white;
+      margin-right: 22px;
+    }
+
+    footer {
+      background: var(--navy);
+      color: #aebbd0;
+      padding: 22px 0;
+      border-top: 1px solid #34445a;
+      font-size: 13px;
+    }
+
+    @media (max-width: 650px) {
+      .hero { padding: 65px 0 75px; }
+      .grid { grid-template-columns: 1fr; }
+      .nav-links { gap: 12px; }
+      nav a { font-size: 12px; }
+      section { padding: 55px 0; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <a class="brand" href="#">YOUR NAME</a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+      <div class="hero">
+        <div class="eyebrow">
+          Engineering · Digitalization · Project Management
+        </div>
+        <h1>Bridging Engineering, Digitalization, and Project Execution.</h1>
+        <p>
+          I connect technical disciplines, bring different perspectives
+          together, and help turn complex challenges into practical solutions.
+        </p>
+        <a class="button" href="#projects">Explore my work ↓</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about">
+      <div class="container">
+        <div class="eyebrow">About me</div>
+        <h2>Connecting technology, people, and ideas.</h2>
+        <p class="intro">
+          With a background in mechanical engineering and experience spanning
+          technical development, project coordination, and AI-driven solutions
+          in production, I enjoy working at the intersection of disciplines.
+          My strength lies in understanding different perspectives, bringing
+          structure to complex challenges, and helping turn innovative ideas
+          into practical applications.
+        </p>
+      </div>
+    </section>
+
+    <section class="light">
+      <div class="container">
+        <div class="eyebrow">Core strengths</div>
+        <h2>What I bring</h2>
+
+        <div class="grid">
+          <article class="card">
+            <h3>Technical & Analytical Thinking</h3>
+            <p>
+              Evaluating engineering concepts through technical analysis,
+              simulation, manufacturing considerations, and cost assessment.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Project Coordination</h3>
+            <p>
+              Coordinating stakeholders, activities, and timelines to move
+              technical concepts towards implementation.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Cross-Functional Collaboration</h3>
+            <p>
+              Connecting engineering, IT, production, and external partners
+              to align different perspectives around shared goals.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Digitalization & Applied AI</h3>
+            <p>
+              Connecting AI-driven approaches with real-world operational
+              needs and incorporating user feedback into development.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="eyebrow">Selected projects</div>
+        <h2>From engineering concepts to real-world applications.</h2>
+
+        <div class="grid">
+          <article class="card">
+            <div class="number">PROJECT 01 · ENGINEERING</div>
+            <h3>Evaluating an Innovative Rotor Shaft</h3>
+            <p>
+              Assessed a novel electric motor rotor shaft connection through
+              technical analysis, FEM simulation, manufacturing process
+              planning, and cost evaluation.
+            </p>
+            <span class="tag">Mechanical Engineering</span>
+            <span class="tag">FEM</span>
+            <span class="tag">Feasibility</span>
+            <p><strong>Recognition:</strong> Award for my bachelor's thesis.</p>
+          </article>
+
+          <article class="card">
+            <div class="number">PROJECT 02 · PROJECT MANAGEMENT</div>
+            <h3>From Concept to Prototype</h3>
+            <p>
+              Coordinated prototype manufacturing, aligning production
+              processes, external partners, tooling preparation, machining,
+              and management.
+            </p>
+            <span class="tag">Coordination</span>
+            <span class="tag">Manufacturing</span>
+            <span class="tag">Prototyping</span>
+          </article>
+
+          <article class="card">
+            <div class="number">PROJECT 03 · AI & DIGITALIZATION</div>
+            <h3>Bringing Generative AI into Production</h3>
+            <p>
+              Developed a RAG-based chatbot for a production environment,
+              connecting IT development with operational requirements and
+              incorporating feedback from production users.
+            </p>
+            <span class="tag">Generative AI</span>
+            <span class="tag">RAG</span>
+            <span class="tag">Production</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="light">
+      <div class="container">
+        <div class="eyebrow">Next step</div>
+        <h2>What I'm looking for</h2>
+        <p class="intro">
+          I am looking for a junior project management role or a technical
+          position at the intersection of engineering, digitalization, and
+          cross-functional collaboration — where I can contribute my
+          technical background and help drive projects forward.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="eyebrow">Get in touch</div>
+        <h2>Let's connect.</h2>
+        <p>
+          Interested in working together or discussing an opportunity?
+          I'd be happy to hear from you.
+        </p>
+        <p>
+          <a href="mailto:YOUR.EMAIL@example.com">Email me ↗</a>
+          <a href="https://www.linkedin.com/in/YOUR-PROFILE/"
+             target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © 2026 YOUR NAME · Personal Portfolio
+    </div>
+  </footer>
+</body>
+</html>
